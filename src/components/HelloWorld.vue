@@ -24,7 +24,7 @@ export default {
           });
           let infoWindow = new AMap.InfoWindow({ //创建信息窗体
             isCustom: false,  //使用自定义窗体
-            content:'<div>信息窗体</div>', //信息窗体的内容可以是任意html片段
+            content:'<div>Just for test </div>', //信息窗体的内容可以是任意html片段
             offset: new AMap.Pixel(16, -45)
           });
           let onMarkerClick  =  function(e) {
